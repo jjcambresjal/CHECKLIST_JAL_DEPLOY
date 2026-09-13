@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Checklist de Accesos JAL</title>
+<style>
+  :root { color-scheme: light; }
+  body { margin: 0; background: #eef4fa; color: #1d2a3b;
+         font: 15px/1.55 "Segoe UI", system-ui, -apple-system, sans-serif; }
+  .hoja { max-width: 640px; margin: 8vh auto; background: #fff; border-radius: 12px;
+          padding: 40px 44px 36px; box-shadow: 0 2px 18px rgba(13,45,87,.10); }
+  .marca { font: 700 14px "Segoe UI", sans-serif; color: #0d2d57; letter-spacing: 1px; }
+  .equipo { font: 700 9.5px "Segoe UI", sans-serif; color: #5f6e82; letter-spacing: 1px;
+            margin: 2px 0 26px; }
+  h1 { font-size: 26px; color: #0d2d57; margin: 0 0 10px; }
+  p { margin: 0 0 14px; }
+  .instalar { display: inline-block; margin: 18px 0 8px; padding: 14px 30px; border-radius: 8px;
+              background: #1257d6; color: #fff; font-weight: 700; text-decoration: none; }
+  .instalar:hover { background: #0d47b4; }
+  .nota { color: #5f6e82; font-size: 13.5px; }
+  h2 { font-size: 15px; color: #0d2d57; margin: 26px 0 8px; }
+  ol, ul { margin: 0 0 14px; padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  footer { margin-top: 30px; padding-top: 16px; border-top: 1px solid #e3eaf2;
+           color: #5f6e82; font-size: 12.5px; }
+  code { background: #f2f6fb; padding: 1px 5px; border-radius: 4px; font-size: 12.5px; }
+</style>
+</head>
+<body>
+<div class="hoja">
+  <div class="marca">OPERACIONES</div>
+  <div class="equipo">EQUIPO PILOTO DE TRANSFORMACION DIGITAL</div>
+
+  <h1>Checklist de Accesos JAL</h1>
+  <p>Deja constancia de los accesos que se le dan o se le retiran a una persona cuando entra en la
+     firma, cambia de puesto o sale.</p>
+
+  <a class="instalar" href="ChecklistJAL.application">Instalar Checklist JAL</a>
+  <p class="nota">Al pulsar se descarga el instalador. Windows pedirá confirmación porque la
+     aplicación no está firmada; es la aplicación de la firma.</p>
+
+  <h2>Qué pasa la primera vez</h2>
+  <ol>
+    <li>Se instala y queda un acceso directo en <em>JAL LAW - Operaciones</em>.</li>
+    <li>Escriba su correo corporativo y recibirá un enlace de acceso.</li>
+    <li>Ábralo: la aplicación entra sola y este equipo queda recordado.</li>
+    <li>A partir de ahí basta con abrirla; no se pide contraseña ni código.</li>
+  </ol>
+
+  <h2>Actualizaciones</h2>
+  <p>Se instalan solas. Al abrir la aplicación se comprueba si hay una versión nueva aquí y se
+     aplica antes de arrancar, conservando su sesión.</p>
+
+  <h2>Requisitos</h2>
+  <ul>
+    <li>Windows 10 o superior.</li>
+    <li><a href="https://dotnet.microsoft.com/download/dotnet/10.0/runtime">Runtime de Escritorio de .NET 10</a>.</li>
+    <li>Una cuenta autorizada. Si no puede entrar, pídasela a un administrador.</li>
+  </ul>
+
+  <h2>Si algo no va</h2>
+  <ul>
+    <li>Si el enlace del correo no llega, revise la carpeta de correo no deseado.</li>
+    <li>Si la aplicación dice que no puede contactar con el servidor, compruebe su conexión.</li>
+    <li>Para entrar con otra cuenta, use <code>Cerrar sesión</code> abajo a la derecha.</li>
+  </ul>
+
+  <footer>
+    Los datos viven en el servidor de la firma. Esta página solo distribuye la aplicación: no
+    contiene ningún dato de personas ni de accesos.
+  </footer>
+</div>
+</body>
+</html>
