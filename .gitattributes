@@ -1,0 +1,3 @@
+# Los manifiestos ClickOnce llevan su propio hash: cualquier cambio de bytes, incluido el
+# final de linea, invalida la instalacion. Se guardan tal cual, sin normalizar.
+* -text
