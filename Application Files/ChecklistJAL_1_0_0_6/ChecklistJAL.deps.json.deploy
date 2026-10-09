@@ -9,6 +9,8 @@
     ".NETCoreApp,Version=v10.0/win-x64": {
       "ChecklistJAL/1.0.0": {
         "dependencies": {
+          "ChecklistJAL.Integraciones.Windows": "1.0.0",
+          "ChecklistJAL.Nucleo": "1.0.0",
           "ClosedXML": "0.105.1",
           "Microsoft.Data.Sqlite": "10.0.12",
           "PDFsharp": "6.2.4"
@@ -200,6 +202,30 @@
             "fileVersion": "2.1.12.3116"
           }
         }
+      },
+      "ChecklistJAL.Integraciones.Windows/1.0.0": {
+        "dependencies": {
+          "ChecklistJAL.Nucleo": "1.0.0"
+        },
+        "runtime": {
+          "ChecklistJAL.Integraciones.Windows.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ChecklistJAL.Nucleo/1.0.0": {
+        "dependencies": {
+          "ClosedXML": "0.105.1",
+          "Microsoft.Data.Sqlite": "10.0.12",
+          "PDFsharp": "6.2.4"
+        },
+        "runtime": {
+          "ChecklistJAL.Nucleo.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -320,6 +346,16 @@
       "sha512": "sha512-W3oH4XIfCzFrgUSDKHhN6N+dgzA5YHOR2VxX8GB6Qy7CyrJJgxPEG8NirgYWlPQC5P2jz2knSsexWu4tDUL33g==",
       "path": "sqlitepclraw.provider.e_sqlite3/2.1.12",
       "hashPath": "sqlitepclraw.provider.e_sqlite3.2.1.12.nupkg.sha512"
+    },
+    "ChecklistJAL.Integraciones.Windows/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ChecklistJAL.Nucleo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
